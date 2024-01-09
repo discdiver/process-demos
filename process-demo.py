@@ -10,4 +10,4 @@ if __name__ == "__main__":
     print_hi.from_source(
         source="https://github.com/discdiver/process-demos.git",
         entrypoint="process-demo.py:print_hi",
-    ).deploy(name="gh-process-deploy", work_pool_name="process1")
+    ).deploy(name="gh-process-deploy", work_pool_name="process1", build=None)
