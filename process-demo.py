@@ -7,7 +7,7 @@ def print_hi():
 
 
 if __name__ == "__main__":
-    print_issue.from_source(
+    print_hi.from_source(
         source="https://github.com/discdiver/process-demo.git",
-        entrypoint="flow.py:print_issue",
+        entrypoint="flow.py:print_hi",
     ).deploy(name="gh-process-deploy", work_pool_name="process1")
